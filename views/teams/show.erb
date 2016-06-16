@@ -1,0 +1,15 @@
+<b>TEAM DETAILS:</b>
+
+<%= @team.name %>
+
+<b>PLAYERS</b>
+
+
+<a href="/team/<%= @team.id %>/edit">Edit TEAM</a>
+
+
+<form action="/team/<%= @team.id %>/delete" method="post">
+
+<input type="submit" value="Delete">
+
+</form>
